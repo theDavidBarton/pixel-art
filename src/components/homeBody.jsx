@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Carousel1, Carousel2 } from './carousel'
-import BodyText from './bodyText'
+import { BodyText1, BodyText2 } from './bodyText'
 
 class HomeBody extends Component {
   render() { 
@@ -9,14 +9,14 @@ class HomeBody extends Component {
         <div className="bg-warning">
           <div className="container">
             <div className="row">
-              <BodyText /><Carousel1 />
+              <BodyText1 /><Carousel1 />
             </div>
           </div>
         </div>
         <div className="bg-info">
           <div className="container">
             <div className="row">
-              <Carousel2 /><BodyText />
+              <Carousel2 /><BodyText2 />
             </div>
           </div>
         </div>

@@ -2,8 +2,9 @@
 My art in pixels
 
 Made with GIMP on 50px x 50px grid.
+React.Js app: [https://theDavidBarton.github.io/pixel-art/](https://theDavidBarton.github.io/pixel-art/)
 
-![pixelart](pixel-art-react-app/public/img/char-001.png)![pixelart](pixel-art-react-app/public/img/char-002.png)
+![pixelart](public/img/char-001.png)![pixelart](public/img/char-002.png)
 
 # Copyright
 ## Graphics

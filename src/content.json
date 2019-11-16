@@ -1,0 +1,34 @@
+{
+  "pods": [
+    {
+      "id": 1,
+      "img": { "alt": "pixel art of a guy", "src": "img/char-001.png" },
+      "text": {
+        "h2": "This is my pixel art page",
+        "pLead": "In this repository - and on the following React.js app - I publish my graphics made in pixel art style.",
+        "p": "The graphics are used across my other projects. My aim is to store the xcf-s in the docs, to bookmark the best free tutorials to make pixel art and of course a new excuse for creating another React.Js app with the help of Bootstrap 4 :) The first pixel graphic I made: "
+      },
+      "tags": ["character"]
+    },
+    {
+      "id": 2,
+      "img": { "alt": "pixel art of a girl", "src": "img/char-002.png" },
+      "text": {
+        "h2": "I draw this girl for the first character not to feel that lonely",
+        "pLead": null,
+        "p": "The second pixel art I made."
+      },
+      "tags": ["character"]
+    },
+    {
+      "id": 3,
+      "img": { "alt": "pixel art of a 286 pc", "src": "img/item-001.png" },
+      "text": {
+        "h2": "Old PC",
+        "pLead": null,
+        "p": "It is a drawing of an oldschool computer (286 PC)."
+      },
+      "tags": ["item"]
+    }
+  ]
+}

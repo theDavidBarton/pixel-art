@@ -1,28 +1,51 @@
-import React, { Component } from 'react'
-import { Carousel1, Carousel2 } from './carousel'
-import { BodyText1, BodyText2 } from './bodyText'
+import React, { Component, Fragment } from 'react'
+import Carousel from './carousel'
+import BodyText from './bodyText'
+import Tags from './tags'
+import content from '../content.json'
 
 class HomeBody extends Component {
-  render() { 
+  state = {
+    data: content.pods
+  }
+
+  idIsEven(id) {
+    return id % 2 === 0
+  }
+
+  render() {
     return (
-      <React.Fragment>
-        <div className="bg-warning">
-          <div className="container">
-            <div className="row">
-              <BodyText1 /><Carousel1 />
-            </div>
-          </div>
-        </div>
-        <div className="bg-info">
-          <div className="container">
-            <div className="row">
-              <Carousel2 /><BodyText2 />
-            </div>
-          </div>
-        </div>
-      </React.Fragment>
+      <Fragment>
+        {this.state.data.map(pod =>
+          this.idIsEven(pod.id) ? (
+            <Fragment key={pod.id}>
+              <div className='bg-info'>
+                <div className='container'>
+                  <div className='row'>
+                    <Carousel data={pod.img} />
+                    <BodyText data={pod.text} />
+                    <Tags data={pod.tags} />
+                  </div>
+                </div>
+              </div>
+            </Fragment>
+          ) : (
+            <Fragment key={pod.id}>
+              <div className='bg-warning'>
+                <div className='container'>
+                  <div className='row'>
+                    <BodyText data={pod.text} />
+                    <Carousel data={pod.img} />
+                    <Tags data={pod.tags} />
+                  </div>
+                </div>
+              </div>
+            </Fragment>
+          )
+        )}
+      </Fragment>
     )
   }
 }
- 
+
 export default HomeBody

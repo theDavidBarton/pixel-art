@@ -4,9 +4,9 @@ class Tags extends Component {
   render() {
     return (
       <Fragment>
-        {this.props.data.map((pod, i) => (
-          <div key={i++} className='badge-pill badge-dark' style={{ position: 'absolute', right: 0 }}>
-            # {pod}
+        {this.props.tags.map((pod, i) => (
+          <div key={i++} className='badge-pill badge-dark' style={{ float: 'left' }}>
+            # {pod}_
           </div>
         ))}
       </Fragment>

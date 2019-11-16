@@ -16,7 +16,7 @@
       "text": {
         "h2": "I draw this girl for the first character not to feel that lonely",
         "pLead": null,
-        "p": "The second pixel art I made."
+        "p": "The second pixel art I made. Nothing special: a girl (bit taller than the first character) drawn in pixels."
       },
       "tags": ["character"]
     },
@@ -26,9 +26,9 @@
       "text": {
         "h2": "Old PC",
         "pLead": null,
-        "p": "It is a drawing of an oldschool computer (286 PC)."
+        "p": "This is a drawing of an oldschool computer (286 PC). Sometimes I feel my i5 laptop is slower than these machines were..."
       },
-      "tags": ["item"]
+      "tags": ["item", "character"]
     }
   ]
 }

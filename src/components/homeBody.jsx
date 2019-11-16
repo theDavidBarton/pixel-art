@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import Carousel from './carousel'
 import BodyText from './bodyText'
-import Tags from './tags'
 import content from '../content.json'
 
 class HomeBody extends Component {
@@ -23,8 +22,7 @@ class HomeBody extends Component {
                 <div className='container'>
                   <div className='row'>
                     <Carousel data={pod.img} />
-                    <BodyText data={pod.text} />
-                    <Tags data={pod.tags} />
+                    <BodyText data={pod.text} tags={pod.tags} />
                   </div>
                 </div>
               </div>
@@ -34,9 +32,8 @@ class HomeBody extends Component {
               <div className='bg-warning'>
                 <div className='container'>
                   <div className='row'>
-                    <BodyText data={pod.text} />
+                    <BodyText data={pod.text} tags={pod.tags} />
                     <Carousel data={pod.img} />
-                    <Tags data={pod.tags} />
                   </div>
                 </div>
               </div>

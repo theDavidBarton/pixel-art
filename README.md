@@ -1,16 +1,20 @@
 # pixel-art
+
 My art in pixels
 
 Made with GIMP on 50px x 50px grid.
 React.Js app: [https://theDavidBarton.github.io/pixel-art/](https://theDavidBarton.github.io/pixel-art/)
 
-![pixelart](public/img/char-001.png)![pixelart](public/img/char-002.png)
+![pixelart](pixel-art-docs/screenshot_page.png)
 
 # Copyright
+
 ## Graphics
+
 All of the graphics of this project have been made available to this project by David Barton and are copyrighted; any other use must be authorized by the maker which holds all the rights for them.
 
 ## Software
+
 MIT License
 
 Copyright (c) 2019 David Barton

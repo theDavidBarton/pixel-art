@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Tags from './tags'
 
 class BodyText extends Component {
   render() {
@@ -7,6 +8,7 @@ class BodyText extends Component {
         <h2>{this.props.data.h2}</h2>
         <p className='lead'>{this.props.data.pLead}</p>
         <p>{this.props.data.p}</p>
+        <Tags tags={this.props.tags} />
       </div>
     )
   }

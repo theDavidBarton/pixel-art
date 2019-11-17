@@ -2,7 +2,7 @@
   "pods": [
     {
       "id": 1,
-      "img": { "alt": "pixel art of a guy", "src": "img/char-001.png" },
+      "img": { "alt": "pixel art of a guy", "src": "img/char-001.png", "width": null },
       "text": {
         "h2": "This is my pixel art page",
         "pLead": "In this repository - and on the following React.js app - I publish my graphics made in pixel art style.",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "img": { "alt": "pixel art of a girl", "src": "img/char-002.png" },
+      "img": { "alt": "pixel art of a girl", "src": "img/char-002.png", "width": null },
       "text": {
         "h2": "I draw this girl for the first character not to feel that lonely",
         "pLead": null,
@@ -22,13 +22,27 @@
     },
     {
       "id": 3,
-      "img": { "alt": "pixel art of a 286 pc", "src": "img/item-001.png" },
+      "img": { "alt": "pixel art of a 286 pc", "src": "img/item-001.png", "width": "350px" },
       "text": {
         "h2": "Old PC",
         "pLead": null,
         "p": "This is a drawing of an oldschool computer (286 PC). Sometimes I feel my i5 laptop is slower than these machines were..."
       },
       "tags": ["item", "character"]
+    },
+    {
+      "id": 4,
+      "img": {
+        "alt": "test comic for pod build",
+        "src": "img/test-comic.png",
+        "width": "100%"
+      },
+      "text": {
+        "h2": "Comic - TDB test comic",
+        "pLead": null,
+        "p": "Just to see how the pod look with bigger - blog style - content"
+      },
+      "tags": ["comic", "TDB"]
     }
   ]
 }

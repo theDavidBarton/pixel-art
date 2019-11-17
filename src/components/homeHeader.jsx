@@ -5,16 +5,15 @@ class HomeHeader extends Component {
     return (
       <div className='bg-dark'>
         <div className='container'>
-          <div className='row text-warning pb-5 px-5'>
+          <div className='text-right position-absolute mr-0 mt-0'>
+            <a href='https://github.com/theDavidBarton/pixel-art'>
+              <img style={{ width: '15%' }} alt='github link' src='img/item-002.png'></img>
+            </a>
+          </div>
+          <div className='row text-warning py-5 px-5'>
             <div>
-              <img
-                className='col d-none d-lg-block'
-                style={{ width: '10%' }}
-                alt='logo Computer'
-                src='img/item-001.png'></img>
-            </div>
-            <div>
-              <h1 className='col'>Pixel art</h1>
+              <p className='col lead'>dBarton's</p>
+              <img className='col' alt='title' src='img/text-001.png'></img>
             </div>
             <div>
               <p className='col'>
@@ -22,14 +21,7 @@ class HomeHeader extends Component {
                 <br /> with Bootstrap
               </p>
             </div>
-            <div className='col'>
-              <a href='https://github.com/theDavidBarton/pixel-art'>
-                <img
-                  style={{ width: '25%' }}
-                  alt='github link'
-                  src='img/item-002.png'></img>
-              </a>
-            </div>
+            <div className='col'></div>
           </div>
         </div>
       </div>

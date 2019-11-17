@@ -33,6 +33,20 @@
     {
       "id": 4,
       "img": {
+        "alt": "title text",
+        "src": "img/text-001.png",
+        "width": "350px"
+      },
+      "text": {
+        "h2": "Title",
+        "pLead": null,
+        "p": "Title used on the page"
+      },
+      "tags": ["comic", "text"]
+    },
+    {
+      "id": 5,
+      "img": {
         "alt": "test comic for pod build",
         "src": "img/test-comic.png",
         "width": "100%"

@@ -5,14 +5,16 @@ class HomeHeader extends Component {
     return (
       <div className='bg-dark'>
         <div className='container'>
-          <div className='text-right position-absolute mr-0 mt-0'>
+          <div className='text-right position-absolute mr-0 mt-0' style={{ right: 25, top: 5 }}>
             <a href='https://github.com/theDavidBarton/pixel-art'>
-              <img style={{ width: '15%' }} alt='github link' src='img/item-002.png'></img>
+              <img style={{ width: '17%' }} alt='github link' src='img/item-002.png'></img>
             </a>
           </div>
-          <div className='row text-warning py-5 px-5'>
+
+          <div className='row text-warning py-4 px-4'>
             <div>
-              <p className='col lead'>dBarton's</p>
+              <p className='col lead d-sm-none'>_tDB's</p>
+              <p className='col lead d-none d-sm-block'>_theDavidBarton's</p>
               <img className='col' alt='title' src='img/text-001.png'></img>
             </div>
             <div>

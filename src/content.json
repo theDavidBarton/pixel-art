@@ -4,7 +4,7 @@
       "id": 1,
       "img": { "alt": "pixel art of a guy", "src": "img/char-001.png", "width": null },
       "text": {
-        "h2": "This is my pixel art page",
+        "h2": "Yeaa ... My Page Is Still Working in [year] !!",
         "pLead": "In this repository - and on the following React.js app - I publish my graphics made in pixel art style.",
         "p": "The graphics are used across my other projects. My aim is to store the xcf-s in the docs, to bookmark the best free tutorials to make pixel art and of course a new excuse for creating another React.Js app with the help of Bootstrap 4 :) The first pixel graphic I made: "
       },

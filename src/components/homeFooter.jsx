@@ -6,17 +6,25 @@ class HomeFooter extends Component {
       <div className='bg-dark'>
         <div className='container text-warning'>
           <div className='text-center'>
-            |
-            <a href='https://github.com/theDavidBarton/pixel-art' target='_blank' className='text-info'>
+            [
+            <a
+              href='https://github.com/theDavidBarton/pixel-art'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-info'>
               GitHub
             </a>
-            |
-            <a href='https://www.linkedin.com/in/thedavidbarton/' target='_blank' className='text-info'>
+            ][
+            <a
+              href='https://www.linkedin.com/in/thedavidbarton/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-info'>
               LinkedIn
             </a>
-            |
+            ]
           </div>
-          <div className='text-center'>copyright © theDavidBarton, 2019</div>
+          <div className='text-center'>copyright © 2019 theDavidBarton</div>
         </div>
       </div>
     )

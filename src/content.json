@@ -15,7 +15,7 @@
       "img": {
         "alt": "knight character with sword",
         "src": "img/char-003.png",
-        "width": "100%"
+        "width": "350px"
       },
       "text": {
         "h2": "Edward the Mild",
@@ -53,11 +53,11 @@
       "img": {
         "alt": "another knight character with sword",
         "src": "img/char-004.png",
-        "width": "100%"
+        "width": "350px"
       },
       "text": {
-        "h2": "Pringlebell the Dim",
-        "pLead": "Pringlebell the Dim is another character made for the mentioned side scroller game in 2019.",
+        "h2": "Pringlebel the Dim",
+        "pLead": "Pringlebel the Dim is another character made for the mentioned side scroller game in 2019.",
         "p": "The current image is based on the Edward the Mild character and is a frame of a sprite sequence for pixel art-style side scroller. The drawing was done with Gimp with brushes on multiple color layers, then it was pixelized with the usual 50 x 50 grid method. ... Well actually it is just Edward re-colored."
       },
       "tags": ["character", "side scroller"]

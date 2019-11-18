@@ -15,8 +15,8 @@
       "img": { "alt": "pixel art of a girl", "src": "img/char-002.png", "width": null },
       "text": {
         "h2": "I draw this girl for the first character not to feel that lonely",
-        "pLead": null,
-        "p": "The second pixel art I made. Nothing special: a girl (bit taller than the first character) drawn in pixels."
+        "pLead": "The second pixel art I made. Nothing special: a girl (bit taller than the first character) drawn in pixels.",
+        "p": "The drawing was made with Gimp on a 50 x 50 pixel grid just for fun, it was not published elsewhere."
       },
       "tags": ["character"]
     },
@@ -47,16 +47,16 @@
     {
       "id": 5,
       "img": {
-        "alt": "test comic for pod build",
-        "src": "img/test-comic.png",
+        "alt": "knight character with sword",
+        "src": "img/char-003.png",
         "width": "100%"
       },
       "text": {
-        "h2": "Comic - TDB test comic",
-        "pLead": null,
-        "p": "Just to see how the pod look with bigger - blog style - content"
+        "h2": "Edward the Mild",
+        "pLead": "Edward the Mild is a character made for side scroller game for later usage.",
+        "p": "Current image is a frame of a sprite sequence for pixel art-style side scroller. The drawing was done in Gimp with brushs on multiple colour layers, then it was pixelized with the usual 50 x 50 grid method."
       },
-      "tags": ["comic", "TDB"]
+      "tags": ["character", "side scroller"]
     }
   ]
 }

@@ -6,19 +6,23 @@
       "text": {
         "h2": "Yeaa ... My Page Is Still Working in [year] !!",
         "pLead": "In this repository - and on the following React.js app - I publish my graphics made in pixel art style.",
-        "p": "The graphics are used across my other projects. My aim is to store the xcf-s in the docs, to bookmark the best free tutorials to make pixel art and of course a new excuse for creating another React.Js app with the help of Bootstrap 4 :) The first pixel graphic I made: "
+        "p": "The graphics are used across my other projects. I aim to store the xcf-s in the docs, to bookmark the best free tutorials to make pixel art and of course a new excuse for creating another React.Js app with the help of Bootstrap 4 :) The first pixel graphic I made: "
       },
       "tags": ["character"]
     },
     {
       "id": 2,
-      "img": { "alt": "pixel art of a girl", "src": "img/char-002.png", "width": null },
-      "text": {
-        "h2": "I draw this girl for the first character not to feel that lonely",
-        "pLead": "The second pixel art I made. Nothing special: a girl (bit taller than the first character) drawn in pixels.",
-        "p": "The drawing was made with Gimp on a 50 x 50 pixel grid just for fun, it was not published elsewhere."
+      "img": {
+        "alt": "knight character with sword",
+        "src": "img/char-003.png",
+        "width": "100%"
       },
-      "tags": ["character"]
+      "text": {
+        "h2": "Edward the Mild",
+        "pLead": "Edward the Mild is a character made for side scroller game for later usage.",
+        "p": "The current image is a frame of a sprite sequence for pixel art-style side scroller. The drawing was done in Gimp with brushes on multiple color layers, then it was pixelized with the usual 50 x 50 grid method."
+      },
+      "tags": ["character", "side scroller"]
     },
     {
       "id": 3,
@@ -26,7 +30,7 @@
       "text": {
         "h2": "Old PC",
         "pLead": null,
-        "p": "This is a drawing of an oldschool computer (286 PC). Sometimes I feel my i5 laptop is slower than these machines were..."
+        "p": "This is a drawing of an old-school computer (286 PC). Sometimes I feel my i5 laptop is slower than these machines were..."
       },
       "tags": ["item", "character"]
     },
@@ -38,25 +42,35 @@
         "width": "350px"
       },
       "text": {
-        "h2": "Title",
+        "h2": "Title font",
         "pLead": null,
-        "p": "Title used on the page"
+        "p": "The title used for this page."
       },
-      "tags": ["comic", "text"]
+      "tags": ["typography"]
     },
     {
       "id": 5,
       "img": {
-        "alt": "knight character with sword",
-        "src": "img/char-003.png",
+        "alt": "another knight character with sword",
+        "src": "img/char-004.png",
         "width": "100%"
       },
       "text": {
-        "h2": "Edward the Mild",
-        "pLead": "Edward the Mild is a character made for side scroller game for later usage.",
-        "p": "Current image is a frame of a sprite sequence for pixel art-style side scroller. The drawing was done in Gimp with brushs on multiple colour layers, then it was pixelized with the usual 50 x 50 grid method."
+        "h2": "Pringlebell the Dim",
+        "pLead": "Pringlebell the Dim is another character made for the mentioned side scroller game in 2019.",
+        "p": "The current image is based on the Edward the Mild character and is a frame of a sprite sequence for pixel art-style side scroller. The drawing was done with Gimp with brushes on multiple color layers, then it was pixelized with the usual 50 x 50 grid method. ... Well actually it is just Edward re-colored."
       },
       "tags": ["character", "side scroller"]
+    },
+    {
+      "id": 6,
+      "img": { "alt": "pixel art of a girl", "src": "img/char-002.png", "width": null },
+      "text": {
+        "h2": "I draw this girl for the first character not to feel that lonely",
+        "pLead": "The second pixel art I made. Nothing special: a girl (bit taller than the first character) drawn in pixels.",
+        "p": "The drawing was made with Gimp on a 50 x 50 pixel grid just for fun, it was not published elsewhere."
+      },
+      "tags": ["character"]
     }
   ]
 }

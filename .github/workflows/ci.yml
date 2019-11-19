@@ -8,13 +8,13 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout
-      uses: actions/checkout@master
+    - name: Checkout
+      uses: actions/checkout@v1
 
-    - name: build and deploy
+    - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.GH_PAGES_CI }}
         BRANCH: gh-pages
         FOLDER: build
         BUILD_SCRIPT: yarn && yarn run deploy

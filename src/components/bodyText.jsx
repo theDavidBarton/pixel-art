@@ -11,7 +11,7 @@ class BodyText extends Component {
     return (
       <Fragment>
         {this.props.data.h2 ? (
-          <div className='col py-5 px-5'>
+          <div className='col py-5 px-5 order-1 order-md-0'>
             <h2 className='text-uppercase'>{this.props.data.h2.replace('[year]', this.currentYear())}</h2>
             <p className='lead'>{this.props.data.pLead}</p>
             <p>{this.props.data.p}</p>

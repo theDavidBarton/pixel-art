@@ -1,0 +1,20 @@
+name: CI
+
+on: 
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@master
+
+    - name: build and deploy
+      uses: JamesIves/github-pages-deploy-action@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.GH_PAGES_CI }}
+        BRANCH: gh-pages
+        FOLDER: build
+        BUILD_SCRIPT: yarn run build && gh-pages -d build

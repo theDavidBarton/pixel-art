@@ -14,7 +14,7 @@ jobs:
     - name: build and deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
-        ACCESS_TOKEN: ${{ secrets.GH_PAGES_CI }}
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: build
         BUILD_SCRIPT: yarn && yarn run deploy

@@ -4,8 +4,8 @@ class HomeFooter extends Component {
   render() {
     return (
       <div className='bg-dark'>
-        <div className='container text-warning'>
-          <div className='text-center'>
+        <div className='container text-warning text-center py-2'>
+          <div>
             [
             <a
               href='https://github.com/theDavidBarton/pixel-art'
@@ -24,7 +24,7 @@ class HomeFooter extends Component {
             </a>
             ]
           </div>
-          <div className='text-center'>copyright © 2019 theDavidBarton</div>
+          <div>copyright © 2019 theDavidBarton</div>
         </div>
       </div>
     )

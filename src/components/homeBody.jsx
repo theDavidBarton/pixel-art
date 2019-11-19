@@ -20,7 +20,7 @@ class HomeBody extends Component {
             <Fragment key={pod.id}>
               <div className='bg-info'>
                 <div className='container'>
-                  <div className='row'>
+                  <div className='row d-flex flex-wrap align-items-center'>
                     <Carousel data={pod.img} />
                     <BodyText data={pod.text} tags={pod.tags} />
                   </div>
@@ -31,7 +31,7 @@ class HomeBody extends Component {
             <Fragment key={pod.id}>
               <div className='bg-warning'>
                 <div className='container'>
-                  <div className='row'>
+                  <div className='row d-flex flex-wrap align-items-center'>
                     <BodyText data={pod.text} tags={pod.tags} />
                     <Carousel data={pod.img} />
                   </div>

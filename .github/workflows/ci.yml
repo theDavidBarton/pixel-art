@@ -17,4 +17,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.GH_PAGES_CI }}
         BRANCH: gh-pages
         FOLDER: build
-        BUILD_SCRIPT: yarn run build && gh-pages -d build
+        BUILD_SCRIPT: yarn install && yarn run build && gh-pages -d build

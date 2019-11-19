@@ -6,8 +6,8 @@ class Tags extends Component {
       <Fragment>
         {this.props.tags.map((pod, i) =>
           pod ? (
-            <div key={i++} className='badge-pill badge-dark float-left'>
-              # {pod}_
+            <div key={i++} className='badge-pill badge-dark float-left m-1'>
+              # {pod}
             </div>
           ) : null
         )}

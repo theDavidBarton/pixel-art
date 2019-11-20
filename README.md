@@ -1,4 +1,10 @@
-# pixel-art
+[![Actions Status](https://github.com/theDavidBarton/pixel-art/workflows/CI/badge.svg)](https://github.com/theDavidBarton/pixel-art/actions)
+![gh-pages](https://img.shields.io/badge/GitHub_pages-true-181717.svg?logo=github)
+![react](https://img.shields.io/badge/ReactJs-true-61DAFB.svg?logo=React)
+![bootstrap](https://img.shields.io/badge/Bootstrap-true-563D7C.svg?logo=bootstrap)
+![gimp](https://img.shields.io/badge/Gimp-true-5C5543.svg?logo=gimp)
+
+# pixel art
 
 My art in pixels
 

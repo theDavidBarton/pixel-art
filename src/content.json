@@ -2,11 +2,15 @@
   "pods": [
     {
       "id": 1,
-      "img": { "alt": "pixel art of a guy", "src": "img/char-001.png", "width": null },
+      "img": { "alt": "pixel art of a guy", "src": "img/char-001.png" },
       "text": {
         "h2": "Yeaa ... My Page Is Still Working in [year] !!",
         "pLead": "In this repository - and on the following React.js app - I publish my graphics made in pixel art style.",
-        "p": "The graphics are used across my other projects. I aim to store the xcf-s in the docs, to bookmark the best free tutorials to make pixel art and of course a new excuse for creating another React.Js app with the help of Bootstrap 4 :) The first pixel graphic I made: "
+        "p": "The graphics are used across my other projects. I aim to store the xcf-s in the docs, to bookmark the best free tutorials to make pixel art and of course a new excuse for creating another React.Js app with the help of Bootstrap 4 :) The first pixel graphic I made: ",
+        "a": {
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/char-001.xcf",
+          "text": "[link]"
+        }
       },
       "tags": ["character"]
     },
@@ -14,23 +18,30 @@
       "id": 2,
       "img": {
         "alt": "knight character with sword",
-        "src": "img/char-003.png",
-        "width": "350px"
+        "src": "img/char-003.png"
       },
       "text": {
         "h2": "Edward the Mild",
         "pLead": "Edward the Mild is a character made for side scroller game for later usage.",
-        "p": "The current image is a frame of a sprite sequence for pixel art-style side scroller. The drawing was done in Gimp with brushes on multiple color layers, then it was pixelized with the usual 50 x 50 grid method."
+        "p": "The current image is a frame of a sprite sequence for pixel art-style side scroller. The drawing was done in Gimp with brushes on multiple color layers, then it was pixelized with the usual 50 x 50 grid method.",
+        "a": {
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/char-003.xcf",
+          "text": "[link]"
+        }
       },
       "tags": ["character", "side scroller"]
     },
     {
       "id": 3,
-      "img": { "alt": "pixel art of a 286 pc", "src": "img/item-001.png", "width": "350px" },
+      "img": { "alt": "pixel art of a 286 pc", "src": "img/item-001.png" },
       "text": {
         "h2": "Old PC",
         "pLead": null,
-        "p": "This is a drawing of an old-school computer (286 PC). Sometimes I feel my i5 laptop is slower than these machines were..."
+        "p": "This is a drawing of an old-school computer (286 PC). Sometimes I feel my i5 laptop is slower than these machines were...",
+        "a": {
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/item-001.xcf",
+          "text": "[link]"
+        }
       },
       "tags": ["item", "character"]
     },
@@ -38,13 +49,15 @@
       "id": 4,
       "img": {
         "alt": "title text",
-        "src": "img/text-001.png",
-        "width": "350px"
+        "src": "img/text-001.png"
       },
       "text": {
         "h2": "Title font",
         "pLead": null,
-        "p": "The title used for this page."
+        "a": {
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/text-001.xcf",
+          "text": "[link]"
+        }
       },
       "tags": ["typography"]
     },
@@ -52,23 +65,42 @@
       "id": 5,
       "img": {
         "alt": "another knight character with sword",
-        "src": "img/char-004.png",
-        "width": "350px"
+        "src": "img/char-004.png"
       },
       "text": {
         "h2": "Pringlebel the Dim",
         "pLead": "Pringlebel the Dim is another character made for the mentioned side scroller game in 2019.",
-        "p": "The current image is based on the Edward the Mild character and is a frame of a sprite sequence for pixel art-style side scroller. The drawing was done with Gimp with brushes on multiple color layers, then it was pixelized with the usual 50 x 50 grid method. ... Well actually it is just Edward re-colored."
+        "p": "The current image is based on the Edward the Mild character and is a frame of a sprite sequence for pixel art-style side scroller. The drawing was done with Gimp with brushes on multiple color layers, then it was pixelized with the usual 50 x 50 grid method. ... Well actually it is just Edward re-colored.",
+        "a": {
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/char-004.xcf",
+          "text": "[link]"
+        }
       },
       "tags": ["character", "side scroller"]
     },
     {
       "id": 6,
-      "img": { "alt": "pixel art of a girl", "src": "img/char-002.png", "width": null },
+      "img": { "alt": "pixel art of a girl", "src": "img/char-006.png" },
+      "text": {
+        "h2": "Dogie",
+        "a": {
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/char-006.xcf",
+          "text": "[link]"
+        }
+      },
+      "tags": ["character"]
+    },
+    {
+      "id": 7,
+      "img": { "alt": "pixel art of a girl", "src": "img/char-002.png" },
       "text": {
         "h2": "I draw this girl for the first character not to feel that lonely",
         "pLead": "The second pixel art I made. Nothing special: a girl (bit taller than the first character) drawn in pixels.",
-        "p": "The drawing was made with Gimp on a 50 x 50 pixel grid just for fun, it was not published elsewhere."
+        "p": "The drawing was made with Gimp on a 50 x 50 pixel grid just for fun, it was not published elsewhere.",
+        "a": {
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/char-002.xcf",
+          "text": "[link]"
+        }
       },
       "tags": ["character"]
     }

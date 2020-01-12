@@ -4,3 +4,9 @@
 * {
   font-family: 'Press Start 2P', cursive;
 }
+.even-color > div > p > a {
+  color: #ffffff;
+}
+.odd-color > div > p > a {
+  color: #007bff;
+}

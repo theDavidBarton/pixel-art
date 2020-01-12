@@ -82,7 +82,7 @@
       "id": 6,
       "img": { "alt": "pixel art of a girl", "src": "img/char-006.png" },
       "text": {
-        "h2": "Dogie",
+        "h2": "Doggie",
         "a": {
           "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/char-006.xcf",
           "text": "[link]"

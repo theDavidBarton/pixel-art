@@ -19,6 +19,10 @@ React.Js app: [https://theDavidBarton.github.io/pixel-art/](https://theDavidBart
 
 All of the graphics of this project have been made available to this project by David Barton and are copyrighted; any other use must be authorized by the maker which holds all the rights for them.
 
+## Fonts
+
+'Arcade Classic' is under copyright (c) Jakob Fischer at www.pizzadude.dk, all rights reserved.
+
 ## Software
 
 MIT License

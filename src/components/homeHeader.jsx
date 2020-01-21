@@ -13,15 +13,15 @@ class HomeHeader extends Component {
 
           <div className='row text-warning py-4 px-4'>
             <div>
-              <p className='col lead d-sm-none'>_tDB's</p>
-              <p className='col lead d-none d-sm-block'>_theDavidBarton's</p>
+              <div className='col lead d-sm-none'>_tDB's</div>
+              <div className='col lead d-none d-sm-block'>_theDavidBarton's</div>
               <img className='col' alt='title' src='img/text-001.png'></img>
             </div>
             <div>
-              <p className='col'>
+              <div className='col'>
                 page made in React.JS
                 <br /> with Bootstrap
-              </p>
+              </div>
             </div>
             <div className='col'></div>
           </div>

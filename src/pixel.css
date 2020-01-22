@@ -10,6 +10,7 @@
   font-family: 'Press Start 2P', cursive;
 }
 
+/*
 p,
 p > * {
   font-family: 'ArcadeClassic';
@@ -17,6 +18,7 @@ p > * {
   letter-spacing: 1.03px;
   word-spacing: 0.3em;
 }
+*/
 
 .even-color > div > p > a {
   color: #ffffff;

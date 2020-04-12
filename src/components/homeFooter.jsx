@@ -23,7 +23,7 @@ export default function HomeFooter() {
           </a>
           ]
         </div>
-        <div>copyright © 2019 theDavidBarton</div>
+        <div>copyright © 2019-2020 theDavidBarton</div>
       </div>
     </div>
   )

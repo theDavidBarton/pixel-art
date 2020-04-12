@@ -1,22 +1,14 @@
-import React, { useState, Fragment } from 'react'
+import React, { Fragment } from 'react'
 
-const ShowMore = () => {
-  // _TODO: it requires lifting up state, will be activated in another round
-  const [displayedPosts, setDisplayedPosts] = useState(5)
-  const [readMoreIsOpened, setReadMoreIsOpened] = false
-
-  const handleClick = () => {
-    setDisplayedPosts(displayedPosts + 5)
-    setReadMoreIsOpened((readMoreIsOpened = true))
-  }
-
+export default function ShowMore({ onClick, dataLngth, displayedPosts }) {
   return (
     <Fragment>
       <div>
-        <div className='container position-absolute' style={{ bottom: 'auto' }}>
+        <div className='container position-absolute text-sm-center'>
           <button
-            onClick={handleClick}
-            className='btn btn-dark text-light position-absolute'
+            onClick={onClick}
+            className='btn btn-dark position-absolute'
+            disabled={dataLngth < displayedPosts ? 'disabled' : null}
             style={{ bottom: '30px' }}>
             SHOW ME MORE!
           </button>
@@ -25,5 +17,3 @@ const ShowMore = () => {
     </Fragment>
   )
 }
-
-export default ShowMore

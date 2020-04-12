@@ -1,32 +1,29 @@
-import React, { Component, Fragment } from 'react'
+import React, { useState, Fragment } from 'react'
 
-class ShowMore extends Component {
+const ShowMore = () => {
   // _TODO: it requires lifting up state, will be activated in another round
-  state = {
-    displayedPosts: 5,
-    readMoreIsOpened: false
+  const [displayedPosts, setDisplayedPosts] = useState(5)
+  const [readMoreIsOpened, setReadMoreIsOpened] = false
+
+  const handleClick = () => {
+    setDisplayedPosts(displayedPosts + 5)
+    setReadMoreIsOpened((readMoreIsOpened = true))
   }
 
-  setDisplayedPosts = () => {
-    this.setState({ displayedPosts: this.state.displayedPosts.length + 5, readMoreIsOpened: true })
-  }
-
-  render() {
-    return (
-      <Fragment>
-        <div>
-          <div className='container position-absolute' style={{ bottom: 'auto' }}>
-            <button
-              onClick={this.setDisplayedPosts}
-              className='btn btn-dark text-light position-absolute'
-              style={{ bottom: '30px' }}>
-              SHOW ME MORE!
-            </button>
-          </div>
+  return (
+    <Fragment>
+      <div>
+        <div className='container position-absolute' style={{ bottom: 'auto' }}>
+          <button
+            onClick={handleClick}
+            className='btn btn-dark text-light position-absolute'
+            style={{ bottom: '30px' }}>
+            SHOW ME MORE!
+          </button>
         </div>
-      </Fragment>
-    )
-  }
+      </div>
+    </Fragment>
+  )
 }
 
 export default ShowMore

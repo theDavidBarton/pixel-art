@@ -27,7 +27,7 @@ export default function HomeBody() {
             <div className='bg-info'>
               <div className='container'>
                 <div className='row d-flex flex-wrap align-items-center even-color'>
-                  <Carousel data={pod.img} />
+                  {pod.img.src ? <Carousel data={pod.img} /> : null}
                   <BodyText data={pod.text} tags={pod.tags} />
                 </div>
               </div>
@@ -39,7 +39,7 @@ export default function HomeBody() {
               <div className='container'>
                 <div className='row d-flex flex-wrap align-items-center odd-color'>
                   <BodyText data={pod.text} tags={pod.tags} />
-                  <Carousel data={pod.img} />
+                  {pod.img.src ? <Carousel data={pod.img} /> : null}
                 </div>
               </div>
             </div>

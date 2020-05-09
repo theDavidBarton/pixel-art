@@ -2,10 +2,11 @@ import React, { Fragment } from 'react'
 
 export default function ShowMore({ onClick, dataLngth, displayedPosts }) {
   const endOfPageReached = dataLngth < displayedPosts
+  const displayedPostsAreEven = displayedPosts % 2 === 0
 
   return (
     <Fragment>
-      <div className='bg-warning p-2'>
+      <div className={`${displayedPostsAreEven ? 'bg-info' : 'bg-warning'} p-2`}>
         <button
           onClick={onClick}
           className={`btn ${endOfPageReached ? 'btn-secondary' : 'btn-info'} btn-lg btn-block`}

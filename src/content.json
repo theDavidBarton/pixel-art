@@ -103,6 +103,32 @@
         }
       },
       "tags": ["character"]
+    },
+    {
+      "id": 8,
+      "img": { "alt": null, "src": null },
+      "text": {
+        "h2": "\"",
+        "pLead": "It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.",
+        "p": "― Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space",
+        "a": {
+          "href": "https://en.wikipedia.org/wiki/Pale_Blue_Dot#Reflections",
+          "text": "[wikipedia]"
+        }
+      },
+      "tags": ["inspirational"]
+    },
+    {
+      "id": 9,
+      "img": { "alt": "GitHub pixelart logo", "src": "img/item-002-black.png" },
+      "text": {
+        "h2": "GitHub pixelart logo",
+        "a": {
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/item-002.xcf",
+          "text": "[link]"
+        }
+      },
+      "tags": ["typography"]
     }
   ]
 }

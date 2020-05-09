@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react'
 
 export default function ShowMore({ onClick, dataLngth, displayedPosts }) {
-  const endOfPageReached = dataLngth < displayedPosts
-  const displayedPostsAreEven = displayedPosts % 2 === 0
+  const endOfPageReached = dataLngth <= displayedPosts
+  const lastPostId = dataLngth - (dataLngth - displayedPosts > 0 ? dataLngth - displayedPosts : 0)
+  const displayedPostsAreEven = lastPostId % 2 === 0
 
   return (
     <Fragment>
@@ -10,7 +11,8 @@ export default function ShowMore({ onClick, dataLngth, displayedPosts }) {
         <button
           onClick={onClick}
           className={`btn ${endOfPageReached ? 'btn-secondary' : 'btn-info'} btn-lg btn-block`}
-          disabled={endOfPageReached ? 'disabled' : null}>
+          disabled={endOfPageReached ? 'disabled' : null}
+          style={{ cursor: endOfPageReached ? 'default' : 'pointer' }}>
           {endOfPageReached ? 'END OF PAGE' : 'SHOW ME MORE!'}
         </button>
       </div>

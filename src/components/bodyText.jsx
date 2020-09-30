@@ -11,7 +11,9 @@ const BodyText = props => {
     <Fragment>
       {props.data.h2 ? (
         <div className='col p-4 order-1 order-md-0'>
-          <h2 className='text-uppercase'>{props.data.h2.replace('[year]', currentYear())}</h2>
+          <h2 className='text-uppercase'>
+            {props.data.h2.includes('[year]') ? props.data.h2.replace('[year]', currentYear()) : props.data.h2}
+          </h2>
           <p className='lead'>{props.data.pLead}</p>
           <p>
             {props.data.p}{' '}

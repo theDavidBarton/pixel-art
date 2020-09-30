@@ -7,7 +7,7 @@
 }
 
 * {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 /*
@@ -25,4 +25,18 @@ p > * {
 }
 .odd-color > div > p > a {
   color: #007bff;
+}
+.max-img-width {
+  max-width: 320px;
+}
+@media all and (max-width: 340px) {
+  .max-img-width {
+    max-width: 220px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+.pointer-e-none {
+  pointer-events: none;
 }

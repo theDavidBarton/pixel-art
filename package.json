@@ -1,14 +1,14 @@
 {
-  "homepage": "https://theDavidBarton.github.io/pixel-art",
+  "homepage": ".",
   "license": "MIT",
   "name": "pixel-art",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-scripts": "3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",

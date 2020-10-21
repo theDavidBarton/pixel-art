@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function HomeFooter() {
   const currentYear = () => {
+    console.log(
+      '%c🐊 Wotcher! I am David :)',
+      'background-color:#ffc107; color: black; font-family:monospace; font-weight:bolder'
+    )
     return new Date().getFullYear()
   }
 

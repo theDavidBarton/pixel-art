@@ -1,0 +1,6 @@
+# img
+User-agent: Googlebot-Image
+Disallow: /*.webp$
+Disallow: /*.svg$
+Disallow: /*.jpg$
+Disallow: /*.xcf$

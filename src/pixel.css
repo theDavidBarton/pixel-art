@@ -1,24 +1,9 @@
 /* overrides bootstrap font with a pixel style */
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-@font-face {
-  /* 'Arcade Classic' is under copyright (c) Jakob Fischer at www.pizzadude.dk, all rights reserved. */
-  font-family: 'ArcadeClassic';
-  src: url('./font/ArcadeClassic.otf') format('opentype');
-}
 
 * {
   font-family: 'Press Start 2P', sans-serif;
 }
-
-/*
-p,
-p > * {
-  font-family: 'ArcadeClassic';
-  font-size: 1.2em;
-  letter-spacing: 1.03px;
-  word-spacing: 0.3em;
-}
-*/
 
 .even-color > div > p > a {
   color: #ffffff;

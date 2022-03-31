@@ -7,10 +7,10 @@ export default function ShowMore({ onClick, dataLngth, displayedPosts }) {
 
   return (
     <Fragment>
-      <div className={`${displayedPostsAreEven ? 'bg-info' : 'bg-warning'} p-2`}>
+      <div className={`${displayedPostsAreEven ? 'bg-info' : 'bg-warning'} p-2 text-center`}>
         <button
           onClick={onClick}
-          className={`btn ${endOfPageReached ? 'btn-secondary' : 'btn-info'} btn-lg btn-block`}
+          className={`btn ${endOfPageReached ? 'btn-secondary' : 'btn-info'} btn-lg`}
           disabled={endOfPageReached ? 'disabled' : null}
           style={{ cursor: endOfPageReached ? 'default' : 'pointer' }}>
           {endOfPageReached ? 'END OF PAGE' : 'SHOW ME MORE!'}

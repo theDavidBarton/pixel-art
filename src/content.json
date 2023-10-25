@@ -47,6 +47,20 @@
     },
     {
       "id": 4,
+      "img": { "alt": "pixel art of a bunny", "src": "img/char-007.png" },
+      "text": {
+        "h2": "Bunny Engineer",
+        "pLead": null,
+        "p": "This is a drawing of a bunny, wearing a safety helmet (as being an engineer, of course).",
+        "a": {
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/char-007.xcf",
+          "text": "[link]"
+        }
+      },
+      "tags": ["character"]
+    },
+    {
+      "id": 5,
       "img": {
         "alt": "title text",
         "src": "img/text-001.png"
@@ -62,7 +76,7 @@
       "tags": ["typography"]
     },
     {
-      "id": 5,
+      "id": 6,
       "img": {
         "alt": "another knight character with sword",
         "src": "img/char-004.png"
@@ -79,8 +93,8 @@
       "tags": ["character", "side scroller"]
     },
     {
-      "id": 6,
-      "img": { "alt": "pixel art of a girl", "src": "img/char-006.png" },
+      "id": 7,
+      "img": { "alt": "pixel art of a dog", "src": "img/char-006.png" },
       "text": {
         "h2": "Doggie",
         "a": {
@@ -91,10 +105,10 @@
       "tags": ["character"]
     },
     {
-      "id": 7,
+      "id": 8,
       "img": { "alt": "pixel art of a girl", "src": "img/char-002.png" },
       "text": {
-        "h2": "I draw this girl for the first character not to feel that lonely",
+        "h2": "Pixel character 2",
         "pLead": "The second pixel art I made. Nothing special: a girl (bit taller than the first character) drawn in pixels.",
         "p": "The drawing was made with Gimp on a 50 x 50 pixel grid just for fun, it was not published elsewhere.",
         "a": {
@@ -105,7 +119,7 @@
       "tags": ["character"]
     },
     {
-      "id": 8,
+      "id": 9,
       "img": { "alt": null, "src": null },
       "text": {
         "h2": "\"",
@@ -119,7 +133,7 @@
       "tags": ["inspirational"]
     },
     {
-      "id": 9,
+      "id": 10,
       "img": { "alt": "GitHub pixelart logo", "src": "img/item-002-black.png" },
       "text": {
         "h2": "GitHub pixelart logo",

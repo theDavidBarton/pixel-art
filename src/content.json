@@ -61,15 +61,13 @@
     },
     {
       "id": 5,
-      "img": {
-        "alt": "title text",
-        "src": "img/text-001.png"
-      },
+      "img": { "alt": "GitHub pixelart logo", "src": "img/item-002-black.png" },
       "text": {
-        "h2": "Title font",
+        "h2": "GitHub pixelart logo",
         "pLead": null,
+        "p": "I recreated the GitHub Octocat logo in a 50 x 50 grid for this page's header.",
         "a": {
-          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/text-001.xcf",
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/item-002.xcf",
           "text": "[link]"
         }
       },
@@ -134,11 +132,16 @@
     },
     {
       "id": 10,
+      "img": {
+        "alt": "title text",
+        "src": "img/text-001.png"
+      },
       "img": { "alt": "GitHub pixelart logo", "src": "img/item-002-black.png" },
       "text": {
-        "h2": "GitHub pixelart logo",
+        "h2": "Title font",
+        "pLead": null,
         "a": {
-          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/item-002.xcf",
+          "href": "https://github.com/theDavidBarton/pixel-art/blob/master/pixel-art-docs/text-001.xcf",
           "text": "[link]"
         }
       },
